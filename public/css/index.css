@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(../images/bg-parking.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%;
+  width: 100%;  */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.text-color-primary {
+  color: #831589;
+}
+
+.App {
+  /* flex: 1;
+  justify-content: center;
+  align-items: center; */
+}
+
+.scene {
+  width: 342px;
+  height: 460px;
+  /* border: 1px solid #ccc;
+  margin: 40px 0; */
+  perspective: 600px;
+}
+
+.cardFlip {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+}
+
+.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card__face {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.card__face--front {
+  /* background: red; */
+}
+
+.card__face--back {
+  /* background: blue; */
+  transform: rotateY(180deg);
+}
+
+.card {
+  /* width: 300px; */
+  /* height: 430px; */
+}
