@@ -1,6 +1,7 @@
 {
   "name": "parking",
-  "version": "0.1.0",
+  "version": "0.1.17",
+  "author": "ABDELAZIZ EL ARASSI",
   "private": true,
   "dependencies": {
     "react": "^16.6.1",
