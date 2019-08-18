@@ -14,8 +14,8 @@ npm start
 
 ## Demo
 
-![](pictures/Details__SWEET_PARK_DONNEES_CLIENT.png)
 ![](pictures/Home__SWEET_PARK_INTERFACE.png)
+![](pictures/Details__SWEET_PARK_DONNEES_CLIENT.png)
 
 ## Contributing
 
